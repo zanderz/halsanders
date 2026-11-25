@@ -153,11 +153,20 @@ blockquote {
     object-fit: contain
 }
 
+.video-card iframe {
+    display: block;
+    width: 100%;
+    aspect-ratio: 9/16;
+    border: 0;
+    background: #211f1b
+}
+
 .video-card-landscape {
     grid-column: span 2
 }
 
-.video-card-landscape video {
+.video-card-landscape video,
+.video-card-landscape iframe {
     aspect-ratio: 16/9
 }
 
